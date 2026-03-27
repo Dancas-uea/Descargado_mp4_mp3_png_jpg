@@ -1,6 +1,13 @@
-echo "__pycache__/" > .gitignore
-echo "*.pyc" >> .gitignore
-echo "config.json" >> .gitignore
-echo "descargas/" >> .gitignore
-echo "dist/" >> .gitignore
-echo "build/" >> .gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+config.json
+descargas/
+dist/
+build/
+*.spec
+*.exe
+.vscode/
+.idea/
+*.log
