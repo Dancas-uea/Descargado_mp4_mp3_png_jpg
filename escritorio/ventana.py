@@ -12,7 +12,7 @@ class VentanaPrincipal:
 
         self.ventana = ctk.CTk()
         self.ventana.title("App Downloader")
-        self.ventana.geometry("900x700")
+        self.ventana.geometry("900x900")
         self.ventana.resizable(True, True)
 
         # Cargar configuración
